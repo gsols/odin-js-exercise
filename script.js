@@ -28,3 +28,8 @@ divContainer.appendChild(heading1);
 divContainer.appendChild(paraInDiv);
 
 container.appendChild(divContainer);    
+
+const btn = document.querySelector("#btn");
+btn.addEventListener("click", () => {
+    alert("Hello World");
+});
